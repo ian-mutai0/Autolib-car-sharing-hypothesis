@@ -12,31 +12,31 @@ Implement the solution by performing hypothesis testing.
 This will need to be documented when writing the report. 
 Below are the guidelines for creating your report:
 
-Problem Statement
+# 1. Problem Statement
 Introduce the data you will be describing and the random variable that you are investigating. 
 State very precisely the null and alternate hypothesis that you will be testing. 
 Provide some explanation for why this hypothesis is important and/or interesting. 
-Data Description
+# 2. Data Description
 Provide information about the data necessary to understand the rest of the report including a precise statement of the random variable.
 Provide a description of the source of your data and the data collection procedures, the descriptive statistics, and some assertions about the model that is consistent with the data. 
-Hypothesis Testing Procedure
+# 3. Hypothesis Testing Procedure
 Present the details concerning how you will test your hypothesis. 
 Describe the logic behind your null and alternate hypotheses -- where did they come from, why are they interesting. 
 Describe the test statistic will you use (i.e., z, t, f) and why?  For example, if you are testing a hypothesis about a mean, you have what appears to be normal data, and you have a small n, then you would use a T-test.  When explaining your choice of the test statistic, you need to discuss whether you have satisfied the assumptions necessary for using the specific statistic (e.g., does the statistic require your population to be normal and is it?). 
 Determine the alpha level you will use (i.e., 0.01, 0.05).
-Hypothesis Testing Results
+# 4. Hypothesis Testing Results
 Start with the results of your test. 
 State the value of the test statistics and the result of the accept/reject decision. 
 Identify the p-value of the test.
 State what the point estimate is for the parameter
 Construct a confidence interval around the parameter.
-Discussion of Test Sensitivity  
+# 5. Discussion of Test Sensitivity  
 If you conducted a test on a parameter (e.g., m, p, s), then you might comment on the following:  the practical significance of the finding in the event that your null hypothesis is rejected and the power of the test (1-ß) for the given alpha level and sample size, and the effect of changing the sample size.
 If you conducted the goodness of fit test, comment on the effect of different bin sizes, different numbers of bins, and different estimates of the parameters of the hypothesized model.
-Summary and Conclusions
+# 6. Summary and Conclusions
 Summarize the process of the project
 Provide the concluding statement concerning the hypothesis, the results, and the sensitivity of the testing.
-Dataset
+# Dataset
 The dataset and glossary to use for this project can be found here [http://bit.ly/DSCoreAutolibDataset] and here [Link] respectively.
 
 The provided dataset is a daily aggregation, by date and postal code, of the number of events on the Autolib network (car-sharing and recharging).
